@@ -18,11 +18,6 @@ public class AlticeAutomation {
 		driver.get("https://selfcare.altice.com.do/");
 		driver.manage().window().maximize();
 		
-		
-		
-		
-		
-		
 		WebElement ingresarNumero=driver.findElement(By.xpath("//input[@placeholder='Ingresar número']"));
 		ingresarNumero.sendKeys("5789999");
 		
